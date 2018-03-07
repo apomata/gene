@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20px;
+  border: 1px;
+}
+
+p {
+  margin: 0px;
+}
+
+.index{
+  transform: rotate(-90deg);
+}
+
+.T {
+  color:red;
+ }
+
+ .A {
+   color:green;
+ }
+
+ .C {
+   color:blue;
+ }
+
+ .G {
+   color:orange;
+ }
